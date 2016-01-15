@@ -40,6 +40,9 @@ mysql -u root -e "SHOW DATABASES";
 
 # download starter content
 
+cd /vagrant
+sudo -u vagrant wget -q https://raw.githubusercontent.com/racoburn/vagrant/master/files/index.html
+sudo -u vagrant wget -q https://raw.githubusercontent.com/racoburn/vagrant/master/files/info.php
 
 service httpd restart
 
